@@ -41,10 +41,10 @@
                 <!-- Positions the image to be on the right -->
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
-                        <!-- Portfolio Image (needs to be specified as you can be handdrawn or something similiar)-->
+                        <!-- Portfolio Image (image needs to be specified as you can be handdrawn or something similiar)-->
                         <img
                             src="https://media.istockphoto.com/id/1498456259/photo/rear-view-of-young-man-businessman-broker-agent-in-shirt-working-using-pc-computer-at-desk-in.jpg?s=612x612&w=0&k=20&c=Abu7yu3a5hDm3vGQqczV1QEYzgrEbnJQFOfrJqKwO0M="
-                            class="d-block img-fluid shadow-lg"
+                            class="img-fluid shadow-lg"
                             alt="Portfolio Image"
                             width="700"
                             height="500"
@@ -58,61 +58,64 @@
                 </div>
             </div>
         </section>
-        <!-- TODO -->
-        <!-- need to position the card on the left while also making sure the about me text is positioned at the right -->
-        <section id="aboutme" class="bg-info">
+        <!-- About me section -->
+        <section id="aboutme" class="bg-info bg-gradient">
             <div class="container pb-5">
-                <h2 class="text-center">About me</h2>
-                <p>I'm John Doe, a current student in College that is passionate on creating a webpage that has ease of use and being extremely pleasant to the eyes.</p>
-            </div>
-            <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
-                <div class="card w-100">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fs-3">Interests:</h5>
-                        <!-- replace with lists of interests -->
-                        <ul class="list-group-numbered">
-                            <li class="list-group-item">Hello!</li>
-                            <li class="list-group-item">Hello!</li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                        </ul>
+                <div class="row pt-3">
+                    <div class="col-md-4">
+                        <div class="card w-100 border-5 bg-success text-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-3">Interests:</h5>
+                                <ul class="list-group-numbered">
+                                    <li class="list-group-item">Playing Games</li>
+                                    <li class="list-group-item">Watching Videos</li>
+                                    <li class="list-group-item">Reading books</li>
+                                    <li class="list-group-item">Birdwatching</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 text-center pt-3">
+                        <h2 class="fw-bold">About me</h2>
+                        <p>I'm John Doe, a current student in College that is passionate on creating a webpage that has ease of use and being extremely pleasant to the eyes.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="skills">
-            <div class="container pb-5">
-                <h2 class="text-center py-5">My Skills</h2>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
-                        <div class="card w-100">
-                            <i class="bi bi-filetype-html display-2 text-primary text-center"></i>
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-3">HTML</h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+        <section id="skills" class="bg-light bg-gradient">
+                <div class="container pb-5">
+                    <h2 class="text-center py-5">My Skills</h2>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                            <div class="card w-100">
+                                <i class="bi bi-filetype-html display-2 text-primary text-center"></i>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fs-3">HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
-                        <div class="card w-100">
-                            <i class="bi bi-css display-2 text-primary text-center"></i>
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-3">CSS</h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                            <div class="card w-100">
+                                <i class="bi bi-css display-2 text-primary text-center"></i>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fs-3">CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
-                        <div class="card w-100">
-                            <i class="bi bi-bootstrap display-2 text-primary text-center"></i>
-                            <div class="card-body text-center">
-                                <h5 class="card-title fs-3">Bootstrap</h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                            <div class="card w-100">
+                                <i class="bi bi-bootstrap display-2 text-primary text-center"></i>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title fs-3">Bootstrap</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -123,18 +126,20 @@
         <!-- Portfolio Section -->
         <!-- ask sir paul if its possible to add a display of old exercises as images -->
         <!-- if not possible add images of random items and describe the role and process of the picture as coding -->
-        <section id="portfolio">
-            <div class="container pt-5 bg-info">
-                <h2 class="text-center">Portfolio</h2>
-                <img src="" alt="Placeholder" />
-                <img src="" alt="Placeholder" />
-                <img src="" alt="Placeholder" />
-                <div class="row"></div>
+        <section id="portfolio" class="bg-info bg-gradient">
+            <div class="container-fluid pt-5">
+                <div class="container">
+                    <h2 class="text-center">Portfolio</h2>
+                    <img src="" alt="Placeholder" />
+                    <img src="" alt="Placeholder" />
+                    <img src="" alt="Placeholder" />
+                    <div class="row"></div>
+                </div>
             </div>
         </section>
         <!-- Contact Me Section -->
         <section id="contact">
-            <div class="container pt-5">
+            <div class="container pt-5 bg-gradient">
                 <h2 class="text-center">Contact Me</h2>
                 <div class="container pb-5">
                     <!-- Positions the icons and information on the left and the form with the message box on the right -->
