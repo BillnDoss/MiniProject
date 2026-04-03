@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    </head>
+    <body>
+        <!-- Navigation Bar for sections -->
+        <div class="container-fluid bg-secondary navbar-dark">
+            <nav class="navbar navbar-expand-lg pt-0">
+                <div class="container navbar-dark">
+                    <a href="#" class="navbar-brand fw-bold">My Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a href="#aboutme" class="nav-link">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skills" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-link"> My Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section id="hero-section">
+            <div class="container px-4 py-5">
+                <!-- Positions the image to be on the right -->
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <!-- Portfolio Image (needs to be specified as you can be handdrawn or something similiar)-->
+                        <img
+                            src="https://media.istockphoto.com/id/1498456259/photo/rear-view-of-young-man-businessman-broker-agent-in-shirt-working-using-pc-computer-at-desk-in.jpg?s=612x612&w=0&k=20&c=Abu7yu3a5hDm3vGQqczV1QEYzgrEbnJQFOfrJqKwO0M="
+                            class="d-block img-fluid shadow-lg"
+                            alt="Portfolio Image"
+                            width="700"
+                            height="500"
+                        />
+                    </div>
+                    <!-- Ensures the hero text stays on the left -->
+                    <div class="col-lg-6">
+                        <h1 class="display-3 fw-bold">John Doe</h1>
+                        <p class="fs-5">Software Engineering Student Programmer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TODO -->
+        <!-- need to position the card on the left while also making sure the about me text is positioned at the right -->
+        <section id="aboutme" class="bg-info">
+            <div class="container pb-5">
+                <h2 class="text-center">About me</h2>
+                <p>I'm John Doe, a current student in College that is passionate on creating a webpage that has ease of use and being extremely pleasant to the eyes.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                <div class="card w-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-3">Interests:</h5>
+                        <!-- replace with lists of interests -->
+                        <ul class="list-group-numbered">
+                            <li class="list-group-item">Hello!</li>
+                            <li class="list-group-item">Hello!</li>
+                            <li class="list-group-item"></li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container pb-5">
+                <h2 class="text-center py-5">My Skills</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                        <div class="card w-100">
+                            <i class="bi bi-filetype-html display-2 text-primary text-center"></i>
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-3">HTML</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                        <div class="card w-100">
+                            <i class="bi bi-css display-2 text-primary text-center"></i>
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-3">CSS</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-sm-3 mb-md-0">
+                        <div class="card w-100">
+                            <i class="bi bi-bootstrap display-2 text-primary text-center"></i>
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-3">Bootstrap</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+        <!-- ask sir paul if its possible to add a display of old exercises as images -->
+        <!-- if not possible add images of random items and describe the role and process of the picture as coding -->
+        <section id="portfolio">
+            <div class="container pt-5 bg-info">
+                <h2 class="text-center">Portfolio</h2>
+                <img src="" alt="Placeholder" />
+                <img src="" alt="Placeholder" />
+                <img src="" alt="Placeholder" />
+                <div class="row"></div>
+            </div>
+        </section>
+        <!-- Contact Me Section -->
+        <section id="contact">
+            <div class="container pt-5">
+                <h2 class="text-center">Contact Me</h2>
+                <div class="container pb-5">
+                    <!-- Positions the icons and information on the left and the form with the message box on the right -->
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <div class="pb-5">
+                                <i class="bi bi-pin-map"></i>
+                                <span class="text">123 Country state</span>
+                            </div>
+                            <div class="pb-5">
+                                <i class="bi bi-envelope"></i>
+                                <span class="text">placeholder@gmail.com</span>
+                            </div>
+                            <div class="pb-5">
+                                <i class="bi bi-telephone"></i>
+                                <span class="text">+6012 345 7890</span>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="fs-3">Leave me a message!</p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control mt-2" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control mt-2" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control mt-2" rows="5" id="message"></textarea>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer Section -->
+        <footer>
+            <div class="container-fluid bg-secondary py-4">
+                <div class="container text-center">
+                    <div class="d-flex justify-content-center pb-2">
+                        <i class="bi bi-facebook text-white px-2"></i>
+                        <i class="bi bi-twitter text-white px-2"></i>
+                        <i class="bi bi-instagram text-white px-2"></i>
+                        <i class="bi bi-linkedin text-white px-2"></i>
+                    </div>
+                    <p class="text-white text-center">All rights reserved &copy; Jacky Tan 2026.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
